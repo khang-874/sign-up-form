@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#logo-image{
+    height: 100%;
+    width: auto;
+    height: 99%;
+}
+
+.random-sentences{
+    font-weight: bold;
+}
+
+.random-sentences > p:nth-child(2){
+    margin-top: 20px;
+}
+.form-body{
+    font-size: 28px;
+}
+
+.logo{
+    position: absolute;
+    color: white;
+    font-size: 58px;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    background: rgb(255,228,196,0.5);
+}
+
+.logo-container{
+    position: relative;
+    height: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.form{
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+    margin-top: 50px;
+}
+.form-legend{
+    font-weight: bold;
+}
+.have-account, .form, .random-sentences{
+    padding-left: 60px;
+}
+.form-information{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    width : 40%;
+}
+.question > input{
+    height: 30px;
+}
+
+.question > label{
+    font-size: 24px;
+}
+
+.form-button{
+    font-size: 24px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: aquamarine;
+}
